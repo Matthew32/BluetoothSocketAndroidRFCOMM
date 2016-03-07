@@ -22,19 +22,25 @@
             android:layout_height="wrap_content"
             android:layout_weight="1">
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
                 android:id="@+id/am_et_mac1"
                 android:layout_width="match_parent"
+                android:singleLine="true"
+                android:maxLength="2"
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
         <LinearLayout
+            android:singleLine="true"
+            android:maxLength="2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
 
-            <EditText
+            <com.rengwuxian.materialedittext.MaterialEditText
 
+                android:singleLine="true"
+                android:maxLength="2"
                 android:id="@+id/am_et_mac2"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -45,20 +51,24 @@
             android:layout_height="wrap_content"
             android:layout_weight="1">
 
-            <EditText
-
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:singleLine="true"
+                android:maxLength="2"
                 android:id="@+id/am_et_mac3"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
         </LinearLayout>
 
         <LinearLayout
+            android:singleLine="true"
+            android:maxLength="2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1">
 
-            <EditText
-
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:singleLine="true"
+                android:maxLength="2"
                 android:id="@+id/am_et_mac4"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -69,8 +79,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1">
 
-            <EditText
-
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:singleLine="true"
+                android:maxLength="2"
                 android:id="@+id/am_et_mac5"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -81,8 +92,9 @@
             android:layout_height="wrap_content"
             android:layout_weight="1">
 
-            <EditText
-
+            <com.rengwuxian.materialedittext.MaterialEditText
+                android:singleLine="true"
+                android:maxLength="2"
                 android:id="@+id/am_et_mac6"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content" />
@@ -90,7 +102,7 @@
 
     </LinearLayout>
 
-    <EditText
+    <com.rengwuxian.materialedittext.MaterialEditText
         android:layout_width="match_parent"
         android:layout_height="200dp"
         android:layout_weight="1" />
@@ -100,13 +112,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
-        <Button
+        <android.support.v7.widget.AppCompatButton
             android:id="@+id/am_btn_listen"
-            android:text="Listen"
+            android:text="@string/am_btn_listen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
-        <Button
-            android:text="Connect"
+        <android.support.v7.widget.AppCompatButton
+            android:text="@string/am_btn_listen_string"
             android:id="@+id/am_btn_connect"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"

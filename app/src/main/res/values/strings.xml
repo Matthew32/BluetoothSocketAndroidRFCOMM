@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">BluetoothLock</string>
+    <string name="am_btn_listen">Listen</string>
+    <string name="am_btn_listen_string">Connect</string>
 </resources>

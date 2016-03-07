@@ -26,7 +26,6 @@ public class MainActivityController {
 
     public MainActivityController() {
         this.bluetooth = getInstance();
-
     }
 
     public void startConnect(String mac) {
